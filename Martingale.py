@@ -35,6 +35,12 @@ print("highest single bet:", np.max(highest_bet))
 print("highest total bet:", np.max(total_bet))
 
 
+#The martingale strategy is one in which the better bets on either red or black and doubles their bet each time until they win,
+#then repeats again starting from their minimum bet again. Thus theoretically their profit will be equal to their minimum bet after each win.
+
+#This code simulates this to find out the maximum single bet needed to sustain this strategy in reality.
+#The idea being, after a certain number of rounds, probabilistically there will come a point where the maximum bet exceeds the better's available cash,
+#resulting in a huge loss.
         
 
 
