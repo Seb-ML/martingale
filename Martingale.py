@@ -31,7 +31,6 @@ for i in range(ROUNDS):
 print("")
 #print("profits:", PROFITS,"\n")
 print("total profit:", np.sum(PROFITS))
-print("highest single bet:", np.max(highest_bet))
 print("highest total bet:", np.max(total_bet))
 
 
