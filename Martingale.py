@@ -40,7 +40,7 @@ print("highest total bet:", np.max(total_bet))
 
 #This code simulates this to find out the maximum single bet needed to sustain this strategy in reality.
 #The idea being, after a certain number of rounds, probabilistically there will come a point where the maximum bet exceeds the better's available cash,
-#resulting in a huge loss.
+#resulting in a huge loss which wipes out all previous wins.
         
 
 
